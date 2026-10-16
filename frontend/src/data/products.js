@@ -1,0 +1,147 @@
+const products = [
+  {
+    "id": 1,
+    "slug": "ceramic-mug",
+    "name": "Everyday Ceramic Mug",
+    "category": "Kitchen",
+    "price": 99,
+    "oldPrice": 149,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558d5f9a3?w=800",
+    "desc": "A simple, sturdy ceramic mug for your everyday tea or coffee.",
+    "tag": "Bestseller",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "slug": "mini-storage-box",
+    "name": "Mini Storage Box",
+    "category": "Home",
+    "price": 79,
+    "oldPrice": 120,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800",
+    "desc": "A handy little organiser to keep your everyday essentials tidy.",
+    "tag": "Popular",
+    "rating": 4.6
+  },
+  {
+    "id": 3,
+    "slug": "pastel-water-bottle",
+    "name": "Pastel Water Bottle",
+    "category": "Lifestyle",
+    "price": 99,
+    "oldPrice": 139,
+    "image": "https://images.unsplash.com/photo-1602143406092-2a9c6e4c2f4f?w=800",
+    "desc": "Lightweight reusable bottle for work, class and travel.",
+    "tag": "New",
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "slug": "desk-organiser",
+    "name": "Desk Organiser",
+    "category": "Stationery",
+    "price": 89,
+    "oldPrice": 120,
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800",
+    "desc": "Make your desk feel calmer with this compact organiser.",
+    "tag": "Value pick",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "slug": "cotton-tote-bag",
+    "name": "Everyday Tote Bag",
+    "category": "Lifestyle",
+    "price": 99,
+    "oldPrice": 160,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800",
+    "desc": "A reusable carry-all bag for errands, books and everyday use.",
+    "tag": "Bestseller",
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "slug": "glass-lunch-box",
+    "name": "Glass Lunch Box",
+    "category": "Kitchen",
+    "price": 99,
+    "oldPrice": 145,
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800",
+    "desc": "A practical lunch companion for home, office and campus.",
+    "tag": "Popular",
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "slug": "scented-candle",
+    "name": "Calm Scented Candle",
+    "category": "Home",
+    "price": 89,
+    "oldPrice": 130,
+    "image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=800",
+    "desc": "Create a cosy corner with a soft, relaxing fragrance.",
+    "tag": "New",
+    "rating": 4.7
+  },
+  {
+    "id": 8,
+    "slug": "wireless-earbuds-case",
+    "name": "Earbuds Storage Case",
+    "category": "Accessories",
+    "price": 69,
+    "oldPrice": 99,
+    "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800",
+    "desc": "A compact protective case for your daily tech accessories.",
+    "tag": "Value pick",
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "slug": "travel-pouch",
+    "name": "Travel Pouch Set",
+    "category": "Accessories",
+    "price": 99,
+    "oldPrice": 149,
+    "image": "https://images.unsplash.com/photo-1622560480654-d96214fdc887?w=800",
+    "desc": "Small pouches to sort chargers, toiletries and travel essentials.",
+    "tag": "Bestseller",
+    "rating": 4.8
+  },
+  {
+    "id": 10,
+    "slug": "plant-pot",
+    "name": "Mini Plant Pot",
+    "category": "Home",
+    "price": 59,
+    "oldPrice": 89,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800",
+    "desc": "A cheerful little pot to brighten up a shelf or workspace.",
+    "tag": "Under ৳100",
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "slug": "sticky-notes",
+    "name": "Pastel Sticky Notes",
+    "category": "Stationery",
+    "price": 39,
+    "oldPrice": 59,
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800",
+    "desc": "Colourful notes for reminders, study sessions and planning.",
+    "tag": "Under ৳100",
+    "rating": 4.5
+  },
+  {
+    "id": 12,
+    "slug": "keychain",
+    "name": "Cute Keychain",
+    "category": "Accessories",
+    "price": 29,
+    "oldPrice": 49,
+    "image": "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=800",
+    "desc": "A small everyday accessory and an easy little gift.",
+    "tag": "Under ৳100",
+    "rating": 4.3
+  }
+];
+export default products;
